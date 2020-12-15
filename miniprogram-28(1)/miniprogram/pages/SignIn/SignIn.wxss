@@ -1,0 +1,14 @@
+/* miniprogram/pages/SignIn/SignIn.wxss */
+.img{
+  width: 100%;  
+  height: 100%;  
+  position:fixed; 
+    background-size:100% 100%; 
+     z-index: -1;
+}
+.tit{
+  text-indent: 0.4cm;
+  
+  color: darkgreen;
+  line-height:80rpx;
+}

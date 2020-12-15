@@ -1,0 +1,8 @@
+<!--miniprogram/pages/lucky/lucky.wxml-->
+<view class="bar">{{ctime}}</view>
+<view class="bar">{{title}}</view>
+<view class="bar">{{description}}</view>
+<view class="bar">{{picUrl}}</view>
+
+<image class="img" src="/images/background6.jpg"></image>
+<!--<image class="img2" src="/images/try.jpg"></image>-->

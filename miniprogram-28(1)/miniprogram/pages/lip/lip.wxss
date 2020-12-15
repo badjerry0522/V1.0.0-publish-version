@@ -1,0 +1,26 @@
+/* miniprogram/pages/lip/lip.wxss */
+.tit{
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  text-indent: 0.4cm;
+  margin-bottom: 0.6cm;
+  color:rgb(75, 27, 75);
+  line-height:80rpx;
+}
+.img{
+  width: 100%;  
+  height: 100%;  
+  position:fixed; 
+    background-size:100% 100%; 
+     z-index: -1;
+}
+.img2{
+ margin: auto;
+  width: 350rpx;
+  height: 350rpx;
+  align-items: center;
+  
+  justify-content: center;
+  
+}

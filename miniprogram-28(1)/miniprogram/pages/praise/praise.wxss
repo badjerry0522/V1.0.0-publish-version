@@ -1,0 +1,26 @@
+/* pages/praise.wxss */
+.img{
+  width: 100%;  
+  height: 100%;  
+  position:fixed; 
+    background-size:100% 100%; 
+     z-index: -1;
+}
+.tit{
+  margin-top: 2.5cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  text-indent: 0.4cm;
+  
+  color:rgb(95, 33, 95);
+  line-height:80rpx;
+}
+.img2{
+  margin: auto;
+   width: 350rpx;
+   height: 350rpx;
+   align-items: center;
+   
+   justify-content: center;
+   
+ }

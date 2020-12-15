@@ -1,0 +1,17 @@
+/* pages/databaseGuide/databaseGuide.wxss */
+
+@import "../../style/guide.wxss";
+
+.guide .counter {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.img{
+  width: 100%;  
+  height: 100%;  
+  position:fixed; 
+    background-size:100% 100%; 
+     z-index: -1;
+}

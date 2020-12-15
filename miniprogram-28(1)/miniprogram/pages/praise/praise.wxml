@@ -1,0 +1,4 @@
+<!--pages/praise.wxml-->
+<text class="tit">{{praise}}</text>
+<image class="img" src="/images/background4.jpg"></image>
+<image class="img2" src="/images/p.jpg"></image>

@@ -1,0 +1,9 @@
+
+<text class="tit1">Marguerite</text>
+<view class="but1">welcome</view>
+<view class='but1' bindtap='onTapDayWeather'>点我注册</view>
+
+<view class='but1' bindtap='onTapToSignIn' >点我登录</view>
+<image class="img" src="/images/background3.jpg"></image>
+
+

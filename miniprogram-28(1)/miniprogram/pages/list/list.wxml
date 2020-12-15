@@ -1,0 +1,39 @@
+<!--miniprogram/pages/list/list.wxml-->
+<text  class="bar">Welcome</text>
+<form>
+  <view class="bar">请输入您的姓名</view>
+  <input  class="bar" bindinput="input_name"  placeholder="please input ur name"/>
+  <view class="bar">请输入您的账号id</view>
+  <input  class="bar"bindinput="input_id" placeholder="please input ur new id"/>
+  <view class="bar">请输入您的密码</view>
+  <input class="bar" bindinput="input_pwd" placeholder="please input ur pwd"/>
+  <view class="bar">请输入您的微信id</view>
+  <input class="bar" bindinput="input_wxid" placeholder="place input ur wechat id"/>
+  <view class="bar">请输入您的手机号</view>
+  <input  class="bar"bindinput="input_phnum" placeholder="place input ur phone number"/>
+  <view class="bar">请输入您想对ta说的一段话</view>
+  <input  class="bar" bindinput="input_idea" placeholder="place input ur idea"/>
+
+
+  <view class="section">
+    <view class="section__title">请选择您的性别</view>
+    <picker bindchange="bindPickerChange_sex" value="{{index_sex}}" range="{{array_sex}}">
+     <view class="picker">
+       性别：{{array_sex[index_sex]}}
+     </view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <view class="section__title">请选择您的星座</view>
+    <picker bindchange="bindPickerChange_constellation" value="{{index_constellation}}" range="{{array_constellation}}">
+     <view class="picker">
+       星座：{{array_constellation[index_constellation]}}
+     </view>
+    </picker>
+  </view>
+  <button type="default" bindtap="tap_submit">提交</button>
+
+</form>
+
+<image class="img" src="/images/background0.jpg"></image>

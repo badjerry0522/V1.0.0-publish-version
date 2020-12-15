@@ -1,0 +1,5 @@
+<!--miniprogram/pages/sweat/sweat.wxml-->
+<text class="tit">{{content}}</text>
+<image class="img" src="/images/background6.jpg"></image>
+<image class="img2" src="/images/sweat.jpg"></image>
+
