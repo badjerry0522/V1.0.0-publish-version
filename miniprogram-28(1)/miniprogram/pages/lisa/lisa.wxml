@@ -1,4 +1,0 @@
-<!--miniprogram/pages/lisa/lisa.wxml-->
-<text class="tit">{{content}}</text>
-<image class="img" src="/images/background5.jpg"></image>
-<image class="img2" src="/images/priase.jpg"></image>

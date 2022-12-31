@@ -1,6 +1,0 @@
-<!--miniprogram/pages/lip/lip.wxml-->
-
-<text class="tit">{{content}}</text>
-<image class="img" src="/images/background4.jpg"></image>
-<image class="img2" src="/images/tiangou.jpg"></image>
-
